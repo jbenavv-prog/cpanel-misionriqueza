@@ -11,7 +11,7 @@ function NavBar({changeHome, changeContact, changeProductos, auteh, cerrarSesion
             </div>
             <div className="btns">
                 <div className="contBtn">
-                    <button className="btn" onClick={changeNews}>Noticias</button>
+                    <button className="btn" onClick={changeNews}>Noticias.</button>
                 </div>
                 <div className="contBtn">
                     <button className="btn" onClick={changeHome}>Nosotros</button>
