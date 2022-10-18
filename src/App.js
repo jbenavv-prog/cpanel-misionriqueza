@@ -55,7 +55,7 @@ function App() {
       <div className='footer'>
         <Icons/>
         <div className='text'>
-        <p>Copyright Todos los derechos reservados. 2022 10 Octubre.</p>
+        <p>Copyright Todos los derechos reservados. 2022 10 Octubre</p>
         </div>
       </div>
     </div>
