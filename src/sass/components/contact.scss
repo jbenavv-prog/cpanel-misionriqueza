@@ -1,0 +1,63 @@
+.contacto{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    animation: anim ease-in-out 0.2s;
+    .noticias{
+        width: 100%;
+        height: 50%;    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        .contMedia{
+            width: 100%;
+            height: 100%;    
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            .contSvg{
+                width: 40%;
+                height: 80%;  
+                
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    .redes{
+        width: 100%;
+        height: 30%;    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        .contRedes{
+            width: 20%;
+            height: 20%;
+                
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+    }
+}
+@keyframes anim{
+    0%{
+        clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    }
+    100%{
+        clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+    }
+}

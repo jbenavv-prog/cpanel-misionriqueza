@@ -1,0 +1,108 @@
+.productos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    animation: anim ease-in-out 0.2s;
+    .store{
+        width: 40%;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        .contCatalogo{
+            width: 20%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            background-color: #232323;
+            border-radius: 15px;
+            input{
+                width: 80%;
+                height: 20%;
+                border: none;
+                cursor: pointer;
+                background-color: transparent;
+                color: white;
+                transition: all 0.2s;
+                border-radius: 10px;
+            }
+            input:hover{
+                background-color: aliceblue;
+                color: black;
+            }
+        }
+        .contProduct{
+            width: 80%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .contStore{
+                
+                width: 80%;
+                height: 17%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                transition: all 0.2s;
+                margin: 20px;
+                border-radius: 15px;
+                background-color: rgba(114, 114, 114, 0.5);
+                .contImgs{
+                    width: 20%;
+                    height: 100%;
+                    border-right: 1px solid white;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .contDes{
+                    width: 80%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                }
+            }
+            .contStore:hover{
+                width: 85%;
+                cursor: pointer;
+            }
+            
+        }
+    }
+    .form{
+        width: 40%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 20px;
+    }
+}
+@keyframes anim{
+    0%{
+        clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    }
+    100%{
+        clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+    }
+}

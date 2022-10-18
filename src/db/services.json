@@ -1,0 +1,12 @@
+[
+    {
+        "name":"Seguridad",
+        "desc":"Instalacionde camaras de seguridad y mantenimientos",
+        "price":"$1.200.000 Mensual"
+    },
+    {
+        "name":"Paginas Web",
+        "desc":"Desarrollo e Implementacion de Paginas web",
+        "price":"$5.200.000 Mensual"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "name":"Servidor DNS",
+        "desc":"Estructura de Implementacion",
+        "price":"$1.500.000"
+    },
+    {
+        "name":"Seguridad de Base de Datos",
+        "desc":"Testing de base de datos",
+        "price":"$2.200.000 Mensual"
+    },
+    {
+        "name":"Servidor WEB",
+        "desc":"Estructura de Implementacion",
+        "price":"$500.000"
+    },
+    {
+        "name":"Servidor SQL",
+        "desc":"Estructura de Implementacion",
+        "price":"$400.000"
+    }
+]

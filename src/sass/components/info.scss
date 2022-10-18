@@ -1,0 +1,40 @@
+.contStik{
+    width: 300px;
+    height: 100px;
+    position: fixed;
+    transform: translate(250%, 550%);
+    transition: all 0.2s;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    .infoLeft{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .imgInfo{
+            width: 50%;
+            height: 50%;
+            background-image: url('../../img/meet.png');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            border-radius: 50%;
+        }
+    }
+    .infoRight{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+}
+.contStik:hover{
+    transform: translate(200%, 550%);
+}
